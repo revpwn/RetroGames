@@ -1,0 +1,29 @@
+canvas {
+  display: block;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 900px)
+{
+  canvas{
+    width: 800px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 820px)
+{
+  canvas{
+    width: 750px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 760px)
+{
+  canvas{
+    width: 650px;
+    height: 500px;
+    margin-top: 5%;
+  }
+}
