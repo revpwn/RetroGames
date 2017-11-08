@@ -57,14 +57,14 @@ window.onload = function(){
 // and also determines and alerts winner
 function ballReset(){
     if(playerScore === WINNING_SCORE ){
-           //alert("You won, congratulations, you beat a fake computer player!");
+           console.log("You won, congratulations, you beat a fake computer player!");
            playerScore = 0;
            computerScore = 0;
            showingWinScreen = true;
        }
 
        if(computerScore === WINNING_SCORE ){
-             // alert("You lost to a computer..really? Better luck next time!");
+             console.log("You lost to a computer..really? Better luck next time!");
               playerScore = 0;
               computerScore = 0;
               showingWinScreen = true;
