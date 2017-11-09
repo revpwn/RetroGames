@@ -45,7 +45,6 @@
     opacity: 0.5;
     transition-delay: 0.5s;
     transition: 0.5s ease-in-out;
-    color: transparent;
 }
 
 /* Header Styles */
@@ -94,7 +93,7 @@
 
 /* Placeholder blocks until I get more content */
 
-.place1{
+.gameBrick{
     background: #444;
     color: #222;
 }
