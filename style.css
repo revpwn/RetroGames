@@ -1,29 +1,29 @@
 /* Universal Styles */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-    body{
-        text-align: center;
-    }
+body {
+    text-align: center;
+}
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.section{
+.section {
     height: 100%;
-    background: url('img/DiamondBackground.jpg');
+    background: url("img/DiamondBackground.jpg");
     background-size: cover;
     background-repeat: repeat-y;
     background-position: center;
 }
 
 /* Default for all square game block styles */
-.gameBox{
+.gameBox {
     display: block;
     text-decoration: none;
     width: 75%;
@@ -41,7 +41,7 @@
     box-shadow: 2px 2px 15px #111;
 }
 
-.gameBox:hover{
+.gameBox:hover {
     opacity: 0.5;
     transition-delay: 0.5s;
     transition: 0.5s ease-in-out;
@@ -49,7 +49,7 @@
 
 /* Header Styles */
 
-.header{
+.header {
     width: 100vw;
     height: 100px;
     background: #3f3f3f;
@@ -65,13 +65,12 @@
     border-right: 2px dashed white;
 }
 
-.section1{
-
+.section1 {
 }
 
 /* Container for all the games */
 
-.gameContainer{
+.gameContainer {
     position: relative;
     display: inline-block;
     width: 75vw;
@@ -79,39 +78,37 @@
     margin: 0 auto;
 }
 
-
 /* Pong CSS square styles */
-.gamePong{
+.gamePong {
     background: #222;
     color: #fff;
 }
 
-.centerText{
+.centerText {
     font-size: 3.3em;
     font-family: monospace;
 }
 
 /* Placeholder blocks until I get more content */
 
-.gameBrick{
+.gameBrick {
     background: #444;
     color: #222;
 }
 
-.place2{
+.place2 {
     background: #666;
     color: black;
 }
 
-.place3{
+.place3 {
     background: #888;
     color: antiquewhite;
 }
-/* Media Queries *//
-
-/*Not sure what I want to do with this as of now, but
+/* Media Queries */
+/
+    /*Not sure what I want to do with this as of now, but
 I would like to implement a wider 'vw' for the .gameContainer --
 */
-@media(max-width: 540px){
-
+    @media(max-width: 540px) {
 }

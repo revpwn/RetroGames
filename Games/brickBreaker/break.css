@@ -1,13 +1,13 @@
-body{
+body {
     background: #fff;
 }
-#brickCanvas{
+#brickCanvas {
     background: #ddd;
     display: block;
     margin: 25px auto;
 }
 
-.instructions{
+.instructions {
     background: #bbb;
     height: auto;
     width: 500px;
