@@ -73,7 +73,7 @@ body {
 .gameContainer {
     position: relative;
     display: inline-block;
-    width: 75vw;
+    width: 85vw;
     height: 100%;
     margin: 0 auto;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .centerText {
-    font-size: 3.3em;
+    font-size: 4em;
     font-family: monospace;
 }
 
@@ -106,9 +106,3 @@ body {
     color: antiquewhite;
 }
 /* Media Queries */
-/
-    /*Not sure what I want to do with this as of now, but
-I would like to implement a wider 'vw' for the .gameContainer --
-*/
-    @media(max-width: 540px) {
-}
