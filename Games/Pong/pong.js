@@ -1,13 +1,16 @@
 var canvas;
 var canvasContext;
+// Size for the ball
 var ballX = 50;
 var ballY = 50;
+// Speed of the ball
 var ballSpeedX = 5;
 var ballSpeedY = 4;
-
+// Keeping up with game score
 var playerScore = 0;
 var computerScore = 0;
 var showingWinScreen = false;
+// Score that is set to establish when someone has won
 const WINNING_SCORE = 1;
 
 var paddle1Y = 400;
